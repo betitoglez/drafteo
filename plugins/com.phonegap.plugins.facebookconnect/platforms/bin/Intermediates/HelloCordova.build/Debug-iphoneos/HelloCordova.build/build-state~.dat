@@ -1,0 +1,990 @@
+THelloCordova
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Info.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/ResourceRules.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
+cCpResource HelloCordova/config.xml /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/config.xml
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76.png HelloCordova/Resources/icons/icon-76.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40@2x.png HelloCordova/Resources/icons/icon-40@2x.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72.png HelloCordova/Resources/icons/icon-72.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon.png HelloCordova/Resources/icons/icon.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon@2x.png HelloCordova/Resources/icons/icon@2x.png
+cCopyStringsFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/en.lproj/Localizable.strings HelloCordova/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.xib
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50.png HelloCordova/Resources/icons/icon-50.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60@2x.png HelloCordova/Resources/icons/icon-60@2x.png
+cCopyStringsFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/de.lproj/Localizable.strings HelloCordova/Resources/de.lproj/Localizable.strings
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small.png HelloCordova/Resources/icons/icon-small.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape@2x~ipad.png HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape~ipad.png HelloCordova/Resources/splash/Default-Landscape~ipad.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait@2x~ipad.png HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small@2x.png HelloCordova/Resources/icons/icon-small@2x.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait~ipad.png HelloCordova/Resources/splash/Default-Portrait~ipad.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40.png HelloCordova/Resources/icons/icon-40.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default@2x~iphone.png HelloCordova/Resources/splash/Default@2x~iphone.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60.png HelloCordova/Resources/icons/icon-60.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default~iphone.png HelloCordova/Resources/splash/Default~iphone.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-568h@2x~iphone.png HelloCordova/Resources/splash/Default-568h@2x~iphone.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50@2x.png HelloCordova/Resources/icons/icon-50@2x.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76@2x.png HelloCordova/Resources/icons/icon-76@2x.png
+cCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72@2x.png HelloCordova/Resources/icons/icon-72@2x.png
+cProcessPCH /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch.pch HelloCordova/HelloCordova-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/main.o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/FacebookConnectPlugin.o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/AppDelegate.o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/MainViewController.o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova normal armv7
+cGenerateDSYMFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app.dSYM /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova
+cProcessProductPackaging /Users/Ally/Library/MobileDevice/Provisioning\ Profiles/C4DD2A74-7D77-4712-91D4-E424855A4D6D.mobileprovision /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/embedded.mobileprovision
+cTouch /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova.xcent
+cCodeSign /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c0000000053227D550000000000000094
+t1394769237
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c0000000053227D550000000000000096
+t1394769237
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053227D55000000000000036B
+t1394769237
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053227D56000000000000019E
+t1394769238
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000053227D580000000000075BA0
+t1394769240
+s482208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053227D5B00000000004D7BC0
+t1394769243
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000053227D5C0000000000152370
+t1394769244
+s1385328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000053227D600000000000210E90
+t1394769248
+s2166416
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova.xcent
+t1401347050
+s420
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/AppDelegate.o
+t1401347049
+s74560
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/FacebookConnectPlugin.o
+t1401347049
+s112552
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/HelloCordova.LinkFileList
+c000000005386DBE700000000000002BA
+t1401347047
+s698
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/MainViewController.o
+t1401347049
+s50676
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/main.o
+t1401347049
+s3116
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
+c000000005386DBE7000000000000002D
+t1401347047
+s45
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch.pch
+t1401347049
+s5307724
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app
+t1401347050
+s1088
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app.dSYM
+t2
+s0
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-568h@2x~iphone.png
+t1401347048
+s61990
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape@2x~ipad.png
+t1401347048
+s143186
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape~ipad.png
+t1401347048
+s65305
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait@2x~ipad.png
+t1401347048
+s136924
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait~ipad.png
+t1401347048
+s63460
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default@2x~iphone.png
+t1401347048
+s55319
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default~iphone.png
+t1401347048
+s20021
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova
+t1401347050
+s961800
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Info.plist
+t1401347047
+s1604
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/MainViewController.nib
+t1401347047
+s1332
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/PkgInfo
+t2
+s0
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/ResourceRules.plist
+t1401347047
+s150
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/config.xml
+t1401347047
+s1600
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/de.lproj/Localizable.strings
+t1401347048
+s280
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/embedded.mobileprovision
+t1401347050
+s9878
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/en.lproj/Localizable.strings
+t1401347047
+s166
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40.png
+t1401347048
+s4450
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40@2x.png
+t1401347047
+s8883
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50.png
+t1401347048
+s5557
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50@2x.png
+t1401347048
+s11331
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60.png
+t1401347048
+s6838
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60@2x.png
+t1401347048
+s14152
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72.png
+t1401347047
+s8045
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72@2x.png
+t1401347048
+s17926
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76.png
+t1401347047
+s8463
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76@2x.png
+t1401347048
+s16629
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small.png
+t1401347048
+s3349
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small@2x.png
+t1401347048
+s6585
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon.png
+t1401347047
+s5977
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon@2x.png
+t1401347048
+s13012
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/libCordova.a
+c000000005386DBE700000000001B0098
+t1401347047
+s1769624
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/FacebookSDK
+c0000000053858FCC00000000008796FC
+t1401262028
+s8886012
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/AppDelegate.m
+c0000000053858FCD00000000000013AF
+t1401262029
+s5039
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.m
+c0000000053858FCD000000000000126D
+t1401262029
+s4717
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.xib
+c0000000053858FCD0000000000001759
+t1401262029
+s5977
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Info.plist
+c000000005386DBDA000000000000090F
+t1401347034
+s2319
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Prefix.pch
+c0000000053858FCD00000000000003C9
+t1401262029
+s969
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m
+c0000000053858FCD0000000000004E3C
+t1401262029
+s20028
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/de.lproj/Localizable.strings
+c0000000053858FCD00000000000004BF
+t1401262029
+s1215
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/en.lproj/Localizable.strings
+c0000000053858FCD00000000000004AA
+t1401262029
+s1194
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-40.png
+c0000000053858FCD0000000000000FF2
+t1401262029
+s4082
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-40@2x.png
+c0000000053858FCD0000000000001CF3
+t1401262029
+s7411
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-50.png
+c0000000053858FCD000000000000130A
+t1401262029
+s4874
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-50@2x.png
+c0000000053858FCD000000000000258B
+t1401262029
+s9611
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-60.png
+c0000000053858FCD00000000000016B3
+t1401262029
+s5811
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-60@2x.png
+c0000000053858FCD0000000000002E94
+t1401262029
+s11924
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-72.png
+c0000000053858FCD0000000000001350
+t1401262029
+s4944
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-72@2x.png
+c0000000053858FCD0000000000002DBA
+t1401262029
+s11706
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-76.png
+c0000000053858FCD0000000000001B71
+t1401262029
+s7025
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-76@2x.png
+c0000000053858FCD0000000000003B9E
+t1401262029
+s15262
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-small.png
+c0000000053858FCD0000000000000CDE
+t1401262029
+s3294
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-small@2x.png
+c0000000053858FCD00000000000015E8
+t1401262029
+s5608
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon.png
+c0000000053858FCD0000000000000F3E
+t1401262029
+s3902
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon@2x.png
+c0000000053858FCD0000000000001EBD
+t1401262029
+s7869
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-568h@2x~iphone.png
+c0000000053858FCD00000000000085B1
+t1401262029
+s34225
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000053858FCD0000000000012DF4
+t1401262029
+s77300
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Landscape~ipad.png
+c0000000053858FCD0000000000008877
+t1401262029
+s34935
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000053858FCD0000000000012B02
+t1401262029
+s76546
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Portrait~ipad.png
+c0000000053858FCD00000000000085E6
+t1401262029
+s34278
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default@2x~iphone.png
+c0000000053858FCD0000000000007323
+t1401262029
+s29475
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default~iphone.png
+c0000000053858FCD000000000000289A
+t1401262029
+s10394
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/config.xml
+c0000000053858FCD0000000000000640
+t1401262029
+s1600
+
+N/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/main.m
+c0000000053858FCD000000000000045E
+t1401262029
+s1118
+
+N/Users/Ally/Library/MobileDevice/Provisioning Profiles/C4DD2A74-7D77-4712-91D4-E424855A4D6D.mobileprovision
+c00000000536B51DE0000000000002696
+t1399542238
+s9878
+
+CBuild AST from /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/AppDelegate.m
+r0
+
+CBuild AST from /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.m
+r0
+
+CBuild AST from /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m
+r0
+
+CBuild AST from /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7e7066671337b941^48c567671337b941^---0#1#1#--18"Check dependencies36"0CB48189-1300-435E-965F-0778F28C9311-
+
+CCodeSign /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app
+s423039850.834687
+e423039852.929444
+r1
+xCodeSign
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"CodeSign /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app119"CodeSign /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app48c3d56a1337b941^3df0ed6c1337b941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/0000000000000000^1197"CodeSign /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Guillaume Hansali (3VD56H8ZML)" and provisioning profile "wildcard_Development" (C4DD2A74-7D77-4712-91D4-E424855A4D6D)    /usr/bin/codesign --force --sign A35088E764674E490E088F3E2BAC0AF99B974370 --resource-rules=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/ResourceRules.plist --entitlements /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova.xcent /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app36"3028DC1B-1DE0-4953-9B37-84838480E3A6-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/AppDelegate.o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423039849.353932
+e423039849.433970
+r1
+xCompileC
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/AppDelegate.o
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/AppDelegate.m
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/AppDelegate.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVViewController.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVAvailability.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVCommandDelegate.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVCommandQueue.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVWhitelist.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVPlugin.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVPluginResult.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/AppDelegate.m284"CompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/AppDelegate.o HelloCordova/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler07b65a691337b941^53246f691337b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/AppDelegate.m0000000000000000^4196"CompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/AppDelegate.o HelloCordova/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/usr/local/lib/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/UninstalledProducts/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources/armv7 -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios -include /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch -MMD -MT dependencies -MF /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/AppDelegate.dia -c /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/AppDelegate.m -o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/AppDelegate.o36"E138132E-1376-4E0D-9952-AEB60B7F9530-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/FacebookConnectPlugin.o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423039849.290222
+e423039849.484617
+r1
+xCompileC
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/FacebookConnectPlugin.o
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FacebookSDK.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBAccessTokenData.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBSession.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBAppCall.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBAppLinkData.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBDialogsData.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBAppEvents.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBCacheDescriptor.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBDialogs.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBOpenGraphActionShareDialogParams.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBDialogsParams.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBOpenGraphAction.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBGraphObject.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBShareDialogParams.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBShareDialogPhotoParams.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBError.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBErrorUtility.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBFrictionlessRecipientCache.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBRequest.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBOpenGraphObject.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBRequestConnection.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBWebDialogs.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBFriendPickerViewController.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBGraphUser.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBGraphPlace.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBGraphLocation.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBViewController.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBInsights.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBLoginView.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBNativeDialogs.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBPlacePickerViewController.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBProfilePictureView.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBSessionTokenCachingStrategy.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBSettings.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/FBUserSettingsViewController.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/Headers/NSError+FBError.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDV.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVAvailability.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVPlugin.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVPluginResult.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVCommandDelegate.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVViewController.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVCommandQueue.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVWhitelist.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVURLProtocol.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVDebug.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVLocalStorage.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVTimer.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/NSArray+Comparisons.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/NSData+Base64.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/NSDictionary+Extensions.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/UIDevice+Extensions.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Compile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m341"CompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/FacebookConnectPlugin.o HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb56b4a691337b941^ed0f7c691337b941^---0#0#1#-19%DVTDocumentLocation2@158"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m0000000000000000^4330"CompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/FacebookConnectPlugin.o HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/usr/local/lib/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/UninstalledProducts/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources/armv7 -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios -include /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch -MMD -MT dependencies -MF /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/FacebookConnectPlugin.d --serialize-diagnostics /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/FacebookConnectPlugin.dia -c /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Plugins/com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m -o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/FacebookConnectPlugin.o36"264DE704-32DF-484E-9257-4118854E2C68-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/MainViewController.o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423039849.435203
+e423039849.500613
+r1
+xCompileC
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/MainViewController.o
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.m
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVViewController.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVAvailability.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVCommandDelegate.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVCommandQueue.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVWhitelist.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVPlugin.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVPluginResult.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.m298"CompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/MainViewController.o HelloCordova/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf1836f691337b941^492d80691337b941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.m0000000000000000^4238"CompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/MainViewController.o HelloCordova/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/usr/local/lib/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/UninstalledProducts/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources/armv7 -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios -include /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch -MMD -MT dependencies -MF /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/MainViewController.dia -c /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.m -o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/MainViewController.o36"3D4DD8AE-AD90-4A6B-B453-E7CB2AF3A75F-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/main.o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423039849.289502
+e423039849.353253
+r1
+xCompileC
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/main.o
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/main.m262"CompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/main.o HelloCordova/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler41444a691337b941^b96e5a691337b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/main.m0000000000000000^4138"CompileC /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/main.o HelloCordova/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/usr/local/lib/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/UninstalledProducts/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources/armv7 -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios -include /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch -MMD -MT dependencies -MF /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/main.dia -c /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/main.m -o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/main.o36"3D9E867D-10B4-485D-A1D9-6D48B32DA60D-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCompileXIB /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.xib
+s423039847.973948
+e423039848.001684
+r1
+xCompileXIB
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compiling /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.xib54"CompileXIB HelloCordova/Classes/MainViewController.xib4164f9671337b941^857c00681337b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.xib0000000000000000^828"CompileXIB HelloCordova/Classes/MainViewController.xib    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/MainViewController.nib /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Classes/MainViewController.xib36"2EAF4935-290E-4099-89FD-E5B28AAD24CA-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-568h@2x~iphone.png HelloCordova/Resources/splash/Default-568h@2x~iphone.png
+s423039848.719731
+e423039848.833473
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-568h@2x~iphone.png
+xHelloCordova/Resources/splash/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-568h@2x~iphone.png HelloCordova/Resources/splash/Default-568h@2x~iphone.png206"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-568h@2x~iphone.png HelloCordova/Resources/splash/Default-568h@2x~iphone.pngdf50b8681337b941^126bd5681337b941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-568h@2x~iphone.png0000000000000000^848"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-568h@2x~iphone.png HelloCordova/Resources/splash/Default-568h@2x~iphone.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-568h@2x~iphone.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-568h@2x~iphone.png36"3DEFBDF1-F313-476A-B4EE-E2EE34B9BA69-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape@2x~ipad.png HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png
+s423039848.059319
+e423039848.445939
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape@2x~ipad.png
+xHelloCordova/Resources/splash/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection212"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape@2x~ipad.png HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png212"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape@2x~ipad.png HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png2d400f681337b941^202972681337b941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^860"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape@2x~ipad.png HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape@2x~ipad.png36"1E4F90C3-59B0-4220-BE89-86F807209F8B-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape~ipad.png HelloCordova/Resources/splash/Default-Landscape~ipad.png
+s423039848.079241
+e423039848.214087
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape~ipad.png
+xHelloCordova/Resources/splash/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape~ipad.png HelloCordova/Resources/splash/Default-Landscape~ipad.png206"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape~ipad.png HelloCordova/Resources/splash/Default-Landscape~ipad.pngda5914681337b941^1fd736681337b941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Landscape~ipad.png0000000000000000^848"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape~ipad.png HelloCordova/Resources/splash/Default-Landscape~ipad.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Landscape~ipad.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Landscape~ipad.png36"164A67FD-8461-4806-BF15-AE1DB5C8C94D-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait@2x~ipad.png HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png
+s423039848.214881
+e423039848.565539
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait@2x~ipad.png
+xHelloCordova/Resources/splash/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection210"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait@2x~ipad.png HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png210"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait@2x~ipad.png HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png061337681337b941^19c790681337b941^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^856"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait@2x~ipad.png HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait@2x~ipad.png36"4E82EC3D-4EC0-47FD-B953-3EB595F36215-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait~ipad.png HelloCordova/Resources/splash/Default-Portrait~ipad.png
+s423039848.479667
+e423039848.661721
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait~ipad.png
+xHelloCordova/Resources/splash/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection204"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait~ipad.png HelloCordova/Resources/splash/Default-Portrait~ipad.png204"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait~ipad.png HelloCordova/Resources/splash/Default-Portrait~ipad.png2fdb7a681337b941^166aa9681337b941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Portrait~ipad.png0000000000000000^844"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait~ipad.png HelloCordova/Resources/splash/Default-Portrait~ipad.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default-Portrait~ipad.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default-Portrait~ipad.png36"AB12D05E-EA8C-4E4E-8677-D89DB8996631-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default@2x~iphone.png HelloCordova/Resources/splash/Default@2x~iphone.png
+s423039848.607036
+e423039848.719271
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default@2x~iphone.png
+xHelloCordova/Resources/splash/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection196"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default@2x~iphone.png HelloCordova/Resources/splash/Default@2x~iphone.png196"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default@2x~iphone.png HelloCordova/Resources/splash/Default@2x~iphone.png61fd9b681337b941^fa61b8681337b941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default@2x~iphone.png0000000000000000^828"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default@2x~iphone.png HelloCordova/Resources/splash/Default@2x~iphone.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default@2x~iphone.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default@2x~iphone.png36"48D79D3E-9626-477B-86D5-883EC0FA6D05-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default~iphone.png HelloCordova/Resources/splash/Default~iphone.png
+s423039848.698458
+e423039848.751482
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default~iphone.png
+xHelloCordova/Resources/splash/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default~iphone.png HelloCordova/Resources/splash/Default~iphone.png190"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default~iphone.png HelloCordova/Resources/splash/Default~iphone.png22deb2681337b941^b69fc0681337b941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default~iphone.png0000000000000000^816"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default~iphone.png HelloCordova/Resources/splash/Default~iphone.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/splash/Default~iphone.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Default~iphone.png36"CFF89EE6-EF13-462E-812B-8B6DCC9463BC-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40.png HelloCordova/Resources/icons/icon-40.png
+s423039848.566197
+e423039848.605734
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40.png
+xHelloCordova/Resources/icons/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40.png HelloCordova/Resources/icons/icon-40.png175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40.png HelloCordova/Resources/icons/icon-40.png750391681337b941^4b1e9b681337b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-40.png0000000000000000^786"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40.png HelloCordova/Resources/icons/icon-40.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-40.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40.png36"D597BD80-EB64-490A-8AE9-F880CC6EE789-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40@2x.png HelloCordova/Resources/icons/icon-40@2x.png
+s423039847.626631
+e423039847.936746
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40@2x.png
+xHelloCordova/Resources/icons/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40@2x.png HelloCordova/Resources/icons/icon-40@2x.png181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40@2x.png HelloCordova/Resources/icons/icon-40@2x.png8578a0671337b941^c0d0ef671337b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-40@2x.png0000000000000000^798"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40@2x.png HelloCordova/Resources/icons/icon-40@2x.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-40@2x.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-40@2x.png36"E4876485-9AA6-4724-ACF0-4D870D7CF327-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50.png HelloCordova/Resources/icons/icon-50.png
+s423039848.002382
+e423039848.039950
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50.png
+xHelloCordova/Resources/icons/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50.png HelloCordova/Resources/icons/icon-50.png175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50.png HelloCordova/Resources/icons/icon-50.png04ad00681337b941^8e3a0a681337b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-50.png0000000000000000^786"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50.png HelloCordova/Resources/icons/icon-50.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-50.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50.png36"27202056-B4B1-4225-AEA7-115925526FDA-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50@2x.png HelloCordova/Resources/icons/icon-50@2x.png
+s423039848.751946
+e423039848.787927
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50@2x.png
+xHelloCordova/Resources/icons/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50@2x.png HelloCordova/Resources/icons/icon-50@2x.png181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50@2x.png HelloCordova/Resources/icons/icon-50@2x.png218fc0681337b941^f6b6c9681337b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-50@2x.png0000000000000000^798"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50@2x.png HelloCordova/Resources/icons/icon-50@2x.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-50@2x.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-50@2x.png36"53201446-0832-4701-8501-64CBBF39739B-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60.png HelloCordova/Resources/icons/icon-60.png
+s423039848.664112
+e423039848.697921
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60.png
+xHelloCordova/Resources/icons/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60.png HelloCordova/Resources/icons/icon-60.png175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60.png HelloCordova/Resources/icons/icon-60.pngb213aa681337b941^0befb2681337b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-60.png0000000000000000^786"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60.png HelloCordova/Resources/icons/icon-60.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-60.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60.png36"36D0D7F7-6490-4E14-961C-3FF7938CC8E6-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60@2x.png HelloCordova/Resources/icons/icon-60@2x.png
+s423039848.014891
+e423039848.057920
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60@2x.png
+xHelloCordova/Resources/icons/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60@2x.png HelloCordova/Resources/icons/icon-60@2x.png181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60@2x.png HelloCordova/Resources/icons/icon-60@2x.png8fdf03681337b941^4ed40e681337b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-60@2x.png0000000000000000^798"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60@2x.png HelloCordova/Resources/icons/icon-60@2x.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-60@2x.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-60@2x.png36"8E3D3DB2-B6D5-4AAF-9A87-775C31EC7FA5-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72.png HelloCordova/Resources/icons/icon-72.png
+s423039847.936625
+e423039847.969670
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72.png
+xHelloCordova/Resources/icons/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72.png HelloCordova/Resources/icons/icon-72.png175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72.png HelloCordova/Resources/icons/icon-72.pngffe8ef671337b941^b03cf8671337b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-72.png0000000000000000^786"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72.png HelloCordova/Resources/icons/icon-72.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-72.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72.png36"ABDF2E58-0E57-43E3-8D63-32466440D3A2-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72@2x.png HelloCordova/Resources/icons/icon-72@2x.png
+s423039848.830128
+e423039848.866589
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72@2x.png
+xHelloCordova/Resources/icons/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72@2x.png HelloCordova/Resources/icons/icon-72@2x.png181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72@2x.png HelloCordova/Resources/icons/icon-72@2x.pngb494d4681337b941^b5e0dd681337b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-72@2x.png0000000000000000^798"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72@2x.png HelloCordova/Resources/icons/icon-72@2x.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-72@2x.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-72@2x.png36"1067B969-ADBE-4C3F-A12A-0F209315F8C9-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76.png HelloCordova/Resources/icons/icon-76.png
+s423039847.624437
+e423039847.935635
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76.png
+xHelloCordova/Resources/icons/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76.png HelloCordova/Resources/icons/icon-76.png175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76.png HelloCordova/Resources/icons/icon-76.png68e89f671337b941^368fef671337b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-76.png0000000000000000^786"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76.png HelloCordova/Resources/icons/icon-76.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-76.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76.png36"BFEC43FB-8ED4-4B60-AD69-E383C71FC878-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76@2x.png HelloCordova/Resources/icons/icon-76@2x.png
+s423039848.789401
+e423039848.829271
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76@2x.png
+xHelloCordova/Resources/icons/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76@2x.png HelloCordova/Resources/icons/icon-76@2x.png181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76@2x.png HelloCordova/Resources/icons/icon-76@2x.png9126ca681337b941^3351d4681337b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-76@2x.png0000000000000000^798"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76@2x.png HelloCordova/Resources/icons/icon-76@2x.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-76@2x.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-76@2x.png36"F61509BC-36A5-40F1-AB18-E5914833CD62-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small.png HelloCordova/Resources/icons/icon-small.png
+s423039848.044834
+e423039848.078578
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small.png
+xHelloCordova/Resources/icons/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small.png HelloCordova/Resources/icons/icon-small.png181"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small.png HelloCordova/Resources/icons/icon-small.pngd28a0b681337b941^fa2b14681337b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-small.png0000000000000000^798"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small.png HelloCordova/Resources/icons/icon-small.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-small.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small.png36"E963134A-1FF8-468F-8464-670B37847A65-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small@2x.png HelloCordova/Resources/icons/icon-small@2x.png
+s423039848.446388
+e423039848.478956
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small@2x.png
+xHelloCordova/Resources/icons/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection187"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small@2x.png HelloCordova/Resources/icons/icon-small@2x.png187"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small@2x.png HelloCordova/Resources/icons/icon-small@2x.png585672681337b941^419d7a681337b941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-small@2x.png0000000000000000^810"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small@2x.png HelloCordova/Resources/icons/icon-small@2x.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon-small@2x.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon-small@2x.png36"CA50A63F-2524-407D-855E-E6014628F79D-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon.png HelloCordova/Resources/icons/icon.png
+s423039847.937136
+e423039847.971545
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon.png
+xHelloCordova/Resources/icons/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon.png HelloCordova/Resources/icons/icon.png169"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon.png HelloCordova/Resources/icons/icon.pngdcf4ef671337b941^bec0f8671337b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon.png0000000000000000^774"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon.png HelloCordova/Resources/icons/icon.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon.png36"6BCE8A9B-1990-4551-885C-776194CA3CD7-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon@2x.png HelloCordova/Resources/icons/icon@2x.png
+s423039847.970147
+e423039848.014202
+r1
+xCopyPNGFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon@2x.png
+xHelloCordova/Resources/icons/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon@2x.png HelloCordova/Resources/icons/icon@2x.png175"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon@2x.png HelloCordova/Resources/icons/icon@2x.pngdf6bf8671337b941^4bb103681337b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon@2x.png0000000000000000^786"CopyPNGFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon@2x.png HelloCordova/Resources/icons/icon@2x.png    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/icons/icon@2x.png /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/icon@2x.png36"43FA132E-0AA3-413C-AF89-3C46D4741565-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyStringsFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/de.lproj/Localizable.strings HelloCordova/Resources/de.lproj/Localizable.strings
+s423039848.042291
+e423039848.044179
+r1
+xCopyStringsFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/de.lproj/Localizable.strings
+xHelloCordova/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy HelloCordova/Resources/de.lproj/Localizable.strings207"CopyStringsFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/de.lproj/Localizable.strings HelloCordova/Resources/de.lproj/Localizable.strings3fe30a681337b941^15550b681337b941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/de.lproj/Localizable.strings0000000000000000^738"CopyStringsFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/de.lproj/Localizable.strings HelloCordova/Resources/de.lproj/Localizable.strings    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/de.lproj -- HelloCordova/Resources/de.lproj/Localizable.strings36"4BED1BEA-4834-46BF-8057-7DAA4097591F-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCopyStringsFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/en.lproj/Localizable.strings HelloCordova/Resources/en.lproj/Localizable.strings
+s423039847.972072
+e423039847.973359
+r1
+xCopyStringsFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/en.lproj/Localizable.strings
+xHelloCordova/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy HelloCordova/Resources/en.lproj/Localizable.strings207"CopyStringsFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/en.lproj/Localizable.strings HelloCordova/Resources/en.lproj/Localizable.strings10e8f8671337b941^1135f9671337b941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/Resources/en.lproj/Localizable.strings0000000000000000^738"CopyStringsFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/en.lproj/Localizable.strings HelloCordova/Resources/en.lproj/Localizable.strings    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/en.lproj -- HelloCordova/Resources/en.lproj/Localizable.strings36"74D9D382-6337-4495-87DB-E7E95EDA53BB-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/ResourceRules.plist
+s423039847.408480
+e423039847.409380
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Copy /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/ResourceRules.plist263"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/ResourceRules.plistba9e68671337b941^3ece68671337b941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/ResourceRules.plist003464bfddffdf42^874"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/ResourceRules.plist    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app36"B1CC1B06-5F93-4B7A-B210-32FC4EA6C3C4-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CCpResource HelloCordova/config.xml /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/config.xml
+s423039847.624210
+e423039847.626492
+r1
+xCpResource
+xHelloCordova/config.xml
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Copy /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/config.xml156"CpResource HelloCordova/config.xml /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/config.xml27dc9f671337b941^16a5a0671337b941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/config.xml003464bfddffdf42^739"CpResource HelloCordova/config.xml /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/config.xml    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/config.xml /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app36"F92F44A4-3279-4792-AFD4-14E4E859A047-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CGenerateDSYMFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app.dSYM /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova
+s423039850.646536
+e423039850.798109
+r1
+xGenerateDSYMFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app.dSYM
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Generate /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app.dSYM256"GenerateDSYMFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app.dSYM /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova4b94a56a1337b941^605acc6a1337b941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app.dSYM003464bfddffdf42^865"GenerateDSYMFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app.dSYM /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova -o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app.dSYM36"1586AC43-E210-4AE7-A2FE-3AB404A098BB-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CLd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova normal armv7
+s423039849.507483
+e423039850.645533
+r1
+xLd
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova
+xnormal
+xarmv7
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/HelloCordova.LinkFileList
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/main.o
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/FacebookConnectPlugin.o
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/AppDelegate.o
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/FacebookSDK.framework/FacebookSDK
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Link /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova139"Ld /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova normal armv7640282691337b941^6f4aa56a1337b941^---0#0#1#--2029"Ld /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova normal armv7    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios -filelist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/HelloCordova.LinkFileList -dead_strip -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AssetsLibrary /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -framework FacebookSDK -Xlinker -dependency_info -Xlinker /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/HelloCordova_dependency_info.dat -o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/HelloCordova36"B340DE95-85E6-4BC3-A8DC-1E95E6DF79F1-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CPhaseScriptExecution Copy\ www\ directory /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
+s423039847.410458
+e423039847.622363
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.175s
+ouser	0m0.020s
+osys	0m0.037s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'213"PhaseScriptExecution Copy\ www\ directory /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Script-304B58A110DAC018002A0835.she4d969671337b941^560fa0671337b941^-42"real	0m0.175suser	0m0.020ssys	0m0.037s3(21%IDEActivityLogMessage2@14"real	0m0.175s-423039847#1#14#-0#-----2@14"user	0m0.020s-423039847#15#14#-0#-----2@13"sys	0m0.037s-423039847#29#13#-0#-----0#0#1#--23833"PhaseScriptExecution Copy\ www\ directory /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Script-304B58A110DAC018002A0835.sh    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export ACTION=build    export AD_HOC_CODE_SIGNING_ALLOWED=NO    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=Ally    export ALWAYS_SEARCH_USER_PATHS=NO    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=armv7    export ARCHS_STANDARD="armv7 armv7s arm64"    export ARCHS_STANDARD_32_64_BIT="armv7 armv7s arm64"    export ARCHS_STANDARD_32_BIT="armv7 armv7s"    export ARCHS_STANDARD_64_BIT=arm64    export ARCHS_STANDARD_INCLUDING_64_BIT="armv7 armv7s arm64"    export ARCHS_UNIVERSAL_IPHONE_OS="armv7 armv7s arm64"    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products    export BUILD_ROOT=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos    export CACHE_ROOT=/var/folders/y8/0k3gjr5d3lqdxysls192hq3r0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode    export CCHROOT=/var/folders/y8/0k3gjr5d3lqdxysls192hq3r0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_ENABLE_OBJC_ARC=YES    export CLANG_WARN_BOOL_CONVERSION=YES    export CLANG_WARN_CONSTANT_CONVERSION=YES    export CLANG_WARN_EMPTY_BODY=YES    export CLANG_WARN_ENUM_CONVERSION=YES    export CLANG_WARN_INT_CONVERSION=YES    export CLANG_WARN__DUPLICATE_METHOD_MATCH=YES    export CLASS_FILE_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/JavaClasses    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app    export CODE_SIGNING_ALLOWED=YES    export CODE_SIGNING_REQUIRED=YES    export CODE_SIGN_CONTEXT_CLASS=XCiPhoneOSCodeSignContext    export CODE_SIGN_IDENTITY="iPhone Developer"    export COLOR_DIAGNOSTICS=NO    export COMBINE_HIDPI_IMAGES=NO    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/y8/0k3gjr5d3lqdxysls192hq3r0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/CompositeSDKs    export COMPRESS_PNG_FILES=YES    export CONFIGURATION=Debug    export CONFIGURATION_BUILD_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos    export CONFIGURATION_TEMP_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos    export CONTENTS_FOLDER_PATH=HelloCordova.app    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=NO    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=armv7    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=YES    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf-with-dsym    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources    export DERIVED_FILE_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources    export DERIVED_SOURCES_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH=HelloCordova.app/English.lproj/Documentation    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT=/tmp/HelloCordova.dst    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME=HelloCordova.app.dSYM    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos    export EFFECTIVE_PLATFORM_NAME=-iphoneos    export EMBEDDED_PROFILE_NAME=embedded.mobileprovision    export ENABLE_HEADER_DEPENDENCIES=YES    export ENTITLEMENTS_ALLOWED=YES    export ENTITLEMENTS_REQUIRED=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH=HelloCordova.app/Executables    export EXECUTABLE_FOLDER_PATH=HelloCordova.app    export EXECUTABLE_NAME=HelloCordova    export EXECUTABLE_PATH=HelloCordova.app/HelloCordova    export FILE_LIST=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects/LinkFileList    export FIXED_FILES_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/FixedFiles    export FRAMEWORKS_FOLDER_PATH=HelloCordova.app/Frameworks    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos  /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios"    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME=HelloCordova.app    export GCC3_VERSION=3.3    export GCC_C_LANGUAGE_STANDARD=c99    export GCC_DYNAMIC_NO_PIC=NO    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES    export GCC_OPTIMIZATION_LEVEL=0    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_PRECOMPILE_PREFIX_HEADER=YES    export GCC_PREFIX_HEADER=HelloCordova/HelloCordova-Prefix.pch    export GCC_SYMBOLS_PRIVATE_EXTERN=YES    export GCC_THUMB_SUPPORT=NO    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_RETURN_TYPE=YES    export GCC_WARN_UNDECLARED_SELECTOR=YES    export GCC_WARN_UNINITIALIZED_AUTOS=YES    export GCC_WARN_UNUSED_FUNCTION=YES    export GCC_WARN_UNUSED_VARIABLE=YES    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_SEARCH_PATHS="/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include \"/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/usr/local/lib/include\" \"/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/UninstalledProducts/include\" \"/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos\""    export ICONV=/usr/bin/iconv    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE=HelloCordova/HelloCordova-Info.plist    export INFOPLIST_OUTPUT_FORMAT=binary    export INFOPLIST_PATH=HelloCordova.app/Info.plist    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH=HelloCordova.app/English.lproj/InfoPlist.strings    export INSTALL_DIR=/tmp/HelloCordova.dst/Applications    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=Ally    export INSTALL_PATH=/Applications    export INSTALL_ROOT=/tmp/HelloCordova.dst    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH=HelloCordova.app/Java    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/HelloCordova_dependency_info.dat    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-LinkMap-normal-armv7.txt    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos "    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_armv7=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal/armv7/HelloCordova.LinkFileList    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH=HelloCordova.app/English.lproj    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MAC_OS_X_PRODUCT_BUILD_VERSION=13A603    export MAC_OS_X_VERSION_ACTUAL=1090    export MAC_OS_X_VERSION_MAJOR=1090    export MAC_OS_X_VERSION_MINOR=0900    export MODULE_CACHE_DIR=/Users/Ally/Library/Developer/Xcode/DerivedData/ModuleCache    export NATIVE_ARCH=armv7    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJECT_FILE_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects    export OBJECT_FILE_DIR_normal=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Objects-normal    export OBJROOT=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates    export ONLY_ACTIVE_ARCH=YES    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export OTHER_LDFLAGS="-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/libCordova.a\" -ObjC"    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH=HelloCordova.app/pbdevelopment.plist    export PFE_FILE_C_DIALECTS=objective-c    export PKGINFO_FILE_PATH=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/PkgInfo    export PKGINFO_PATH=HelloCordova.app/PkgInfo    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    export PLATFORM_NAME=iphoneos    export PLATFORM_PREFERRED_ARCH=arm64    export PLATFORM_PRODUCT_BUILD_VERSION=11D167    export PLIST_FILE_OUTPUT_FORMAT=binary    export PLUGINS_FOLDER_PATH=HelloCordova.app/PlugIns    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/PrefixHeaders    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH=HelloCordova.app/PrivateHeaders    export PRODUCT_NAME=HelloCordova    export PRODUCT_SETTINGS_PATH=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Info.plist    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT=HelloCordova    export PROJECT_DERIVED_FILE_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/DerivedSources    export PROJECT_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PROJECT_FILE_PATH=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova.xcodeproj    export PROJECT_NAME=HelloCordova    export PROJECT_TEMP_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build    export PROJECT_TEMP_ROOT=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates    export PROVISIONING_PROFILE_REQUIRED=YES    export PUBLIC_HEADERS_FOLDER_PATH=HelloCordova.app/Headers    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export RESOURCE_RULES_REQUIRED=YES    export REZ_COLLECTOR_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/ResourceManagerResources    export REZ_OBJECTS_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/ResourceManagerResources/Objects    export REZ_SEARCH_PATHS="/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH=HelloCordova.app/Scripts    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk    export SDK_NAME=iphoneos7.1    export SDK_PRODUCT_BUILD_VERSION=11D167    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=YES    export SHARED_DERIVED_FILE_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH=HelloCordova.app/SharedFrameworks    export SHARED_PRECOMPS_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH=HelloCordova.app/SharedSupport    export SKIP_INSTALL=NO    export SOURCE_ROOT=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export SRCROOT=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export STRINGS_FILE_OUTPUT_ENCODING=binary    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_DEVICE_FAMILIES=1,2    export SUPPORTED_PLATFORMS="iphonesimulator iphoneos"    export SYMROOT=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETED_DEVICE_FAMILY=1,2    export TARGETNAME=HelloCordova    export TARGET_BUILD_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos    export TARGET_NAME=HelloCordova    export TARGET_TEMP_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build    export TEMP_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build    export TEMP_FILES_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build    export TEMP_FILE_DIR=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build    export TEMP_ROOT=/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=503    export UNLOCALIZED_RESOURCES_FOLDER_PATH=HelloCordova.app    export UNSTRIPPED_PRODUCT=NO    export USER=Ally    export USER_APPS_DIR=/Users/Ally/Applications    export USER_LIBRARY_DIR=/Users/Ally/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS="arm64 armv7 armv7s"    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH=HelloCordova.app/version.plist    export VERSION_INFO_BUILDER=Ally    export VERSION_INFO_FILE=HelloCordova_vers.c    export VERSION_INFO_STRING="\"@(#)PROGRAM:HelloCordova  PROJECT:HelloCordova-\""    export WRAPPER_EXTENSION=app    export WRAPPER_NAME=HelloCordova.app    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B130a    export XCODE_VERSION_ACTUAL=0510    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH=HelloCordova.app/XPCServices    export YACC=yacc    export arch=armv7    export variant=normal    /bin/sh -c /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/Script-304B58A110DAC018002A0835.sh36"1E101631-12F9-4A91-8035-FDD3F02688FB-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CProcessInfoPlistFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Info.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Info.plist
+s423039847.405663
+e423039847.408025
+r1
+xProcessInfoPlistFile
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Info.plist
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Process /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Info.plist179"ProcessInfoPlistFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Info.plist HelloCordova/HelloCordova-Info.plist540068671337b941^9e7e68671337b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Info.plist0000000000000000^1042"ProcessInfoPlistFile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Info.plist HelloCordova/HelloCordova-Info.plist    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Info.plist -genpkginfo /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/ResourceRules.plist -o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/Info.plist36"0BBDF93E-2958-48EA-97AD-552F1A2FBAAF-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CProcessPCH /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch.pch HelloCordova/HelloCordova-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423039848.867376
+e423039849.288423
+r1
+xProcessPCH
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch.pch
+xHelloCordova/HelloCordova-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile HelloCordova/HelloCordova-Prefix.pch296"ProcessPCH /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch.pch HelloCordova/HelloCordova-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler5f26de681337b941^23d749691337b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Prefix.pch0000000000000000^4052"ProcessPCH /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch.pch HelloCordova/HelloCordova-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/usr/local/lib/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/UninstalledProducts/include -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources/armv7 -I/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/DerivedSources -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos -F/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios --serialize-diagnostics /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch.dia -MMD -MT dependencies -MF /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch.d -c /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios/HelloCordova/HelloCordova-Prefix.pch -o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/PrecompiledHeaders/HelloCordova-Prefix-ejxbttgycqdhgteiwehyuqgkxcou/HelloCordova-Prefix.pch.pch36"CA0E88F2-824C-4303-AF93-2346A0D08989-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CProcessPCH /Users/Ally/Library/Developer/Xcode/DerivedData/HelloCordova-giuroqkgfjipyxbcfkkqiweccofn/Index/PrecompiledHeaders/HelloCordova-Prefix-cjcaarwvkmunjlfeyiwspxkqjhgi_ast/HelloCordova-Prefix.pch.pch HelloCordova/HelloCordova-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova.xcent
+s423039850.833055
+e423039850.834313
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection300"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova.xcent300"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova.xcentb152d56a1337b941^1096d56a1337b941^---0#0#1#-19%DVTDocumentLocation2@162"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova.xcent003464bfddffdf42^908"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova.xcent    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Intermediates/HelloCordova.build/Debug-iphoneos/HelloCordova.build/HelloCordova.xcent36"89EC56BB-DE51-40C8-8D83-A4D27C5945CC-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CProcessProductPackaging /Users/Ally/Library/MobileDevice/Provisioning\ Profiles/C4DD2A74-7D77-4712-91D4-E424855A4D6D.mobileprovision /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/embedded.mobileprovision
+s423039850.798917
+e423039850.806425
+r1
+xProcessProductPackaging
+x/Users/Ally/Library/MobileDevice/Provisioning Profiles/C4DD2A74-7D77-4712-91D4-E424855A4D6D.mobileprovision
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection268"ProcessProductPackaging /Users/Ally/Library/MobileDevice/Provisioning\ Profiles/C4DD2A74-7D77-4712-91D4-E424855A4D6D.mobileprovision /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/embedded.mobileprovision268"ProcessProductPackaging /Users/Ally/Library/MobileDevice/Provisioning\ Profiles/C4DD2A74-7D77-4712-91D4-E424855A4D6D.mobileprovision /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/embedded.mobileprovision8597cc6a1337b941^a5bfcf6a1337b941^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/embedded.mobileprovision003464bfddffdf42^818"ProcessProductPackaging /Users/Ally/Library/MobileDevice/Provisioning\ Profiles/C4DD2A74-7D77-4712-91D4-E424855A4D6D.mobileprovision /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/embedded.mobileprovision    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/Ally/Library/MobileDevice/Provisioning\ Profiles/C4DD2A74-7D77-4712-91D4-E424855A4D6D.mobileprovision -o /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app/embedded.mobileprovision36"4A086929-3972-4BCF-938B-82D03BB839BD-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+
+CTouch /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app
+s423039850.808524
+e423039850.832572
+r1
+xTouch
+x/Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Touch /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app116"Touch /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.appbf0bcf6a1337b941^062cd56a1337b941^---0#0#1#--515"Touch /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app    cd /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Ally/Documents/aogilvie/phonegap-facebook-plugin/platforms/bin/Products/Debug-iphoneos/HelloCordova.app36"96CA608F-6DC1-4ECD-BBE6-1B6FAE76C3F8-
+bF9A0ACCE-6D5F-41D8-B7FB-E24F7D408448
+

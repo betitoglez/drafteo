@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <title>Index - Drafteo</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/underscore.js"></script>
+        <script type="text/javascript" src="js/backbone.js"></script>
+        
+        
+        
+    </head>
+    <body>
+        <div id="matches">
+        
+        
+        </div>
+        
+        <script type="text/javascript">
+           
+             /**
+              *  Alberto González Cuenca <betitoglez@gmail.com>
+              *
+              *  Started on 6th Aug 2014
+              *
+              *  Assets
+              *
+              *
+              **/
+            
+            
+            /**
+             *  Tournaments
+             *
+             *   PROPERTIES:
+             *       matches - Number of matches of the playoff (Playoff type)
+             *       
+             *
+             *
+             **/
+            (function (window){
+                   var _$ = function () {
+                        this.randomString = function (iLength){
+                            var _seed = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p",
+                                        "q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G",
+                                         "H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X",
+                                         "Y","Z","1","2","3","4","5","6","7","8","9","0"], result = "";
+                            iLength = iLength || 6;
+                            for (var i = 0;i < iLength;i++){
+                                var iPos = Math.round(Math.random()*(_seed.length-1));
+                                result += _seed[iPos];
+                            }
+                            return result;
+             
+                        }
+                   };
+             
+                   window._$ = window.tools = new _$;
+             
+                   
+                   
+            })(window);
+            
+            
+            var Tournament = Backbone.Model.extend ({
+                 defaults : {
+                        created : null,
+                        updated : null,
+                        members : null,
+                        rounds  : [] ,
+                     isFinished : false,
+                    // x-x-x or number
+                        matches :  "2" ,
+                   currentRound : null
+                 },
+                 initialize : function (data){
+                        var now = Date.now();
+                        this.set({
+                                 created : now,
+                                 updated : now,
+                                 members : null,
+                                 rounds  : {} ,
+                              isFinished : false,
+                              
+                            currentRound : null,
+                                     id  : now + "-" + _$.randomString(30)
+                        });
+                                                    
+                        this.on("all",function(e){
+                                this.set("updated",Date.now());
+                        });
+                 },
+                 _clearNotAllowed : function (){
+                                                    var members = this.get("members");
+                                                    members.forEach (function(member){
+                                                                     member.set("notAllowed",new MemberCollection);
+                                                                     });
+                                                    return this;
+                 },
+                                                    
+                 _clearWeight : function (){
+                                                    var members = this.get("members");
+                                                    members.forEach (function(member){
+                                                                     member.set("weight",1);
+                                                                     });
+                                                    return this;
+                                                    } ,
+                 _clearMembersMatches : function () {
+                                                    var members = this.get("members");
+                                                    members.forEach (function(member){
+                                                                     member.set({
+                                                                                win : 0 ,
+                                                                                draw:0,
+                                                                                lose:0,
+                                                                                up:0,
+                                                                                down:0,
+                                                                                points:0
+                                                                     });
+                                                    });
+                                                    return this;
+                 
+                 } ,
+                 _getDraftableTeams : function (team,collectionRival){
+                                                    var draftableTeams = new Backbone.Collection;
+                                                    collectionRival.forEach(function(member){
+                                                                            var _draftable = true;
+                                                                            if ( (team.has("notAllowed") && team.get("notAllowed").get(member)) ||
+                                                                                member.has("notAllowed") && member.get("notAllowed").get(team)){
+                                                                            _draftable = false;
+                                                                            }
+                                                                            if (_draftable)
+                                                                            draftableTeams.push(member);
+                                                                            
+                                                                            });
+                                                    return draftableTeams;
+                 }
+            });
+        
+            
+            var LeagueTournament = Tournament.extend ({
+                defaults : {
+                                                      clasification : {},
+                                                      matches : 2,
+                                                      win : 3,
+                                                      draw: 1,
+                                                      lose : 0
+                },
+                draft : function (){
+                    this._clearNotAllowed()._clearMembersMatches();
+                    var _teams = this.get("members").clone() ;
+                    this.set("clasification", _teams);
+
+                    var table =  this.getTable();
+                                                      
+                    var rounds = this.tableToMatch(table);
+                    
+                    this.set("rounds",rounds);
+                    this._getTotalMatches();
+                } ,
+                                                      
+                
+                clasification : function (){
+                        var clas = this.get("clasification"), _this = this;
+                        clas.forEach(function(member){member.set("instance",_this)});
+                        clas.comparator = this._sortClasification;
+                        clas.sort();
+                        return clas;
+                },
+                                                      
+                _getTotalMatches : function (){
+                    var _total = this.get("matches"),_this=this;
+                    if (_total > 1){
+                        var rounds = this.get("rounds"), _length = rounds.length;
+                        for (var i = 2; i <= _total;i++){
+                             for (var j = 0; j < _length;j++){
+                                    var _newRound = (_length*(i-1))+j, _previousRound = rounds[(_length*(i-2))+j];
+                                     var matchesCollection = new MatchCollection, k = 0;
+                                     _previousRound.forEach(function(match){
+                                        var _match = new Match;
+                                        _match.set({
+                                            id      :  _newRound+"-"+k,
+                                            round   :  _newRound,
+                                            match   :  k,
+                                            member1 : match.get("member2") ,
+                                            member2 : match.get("member1")
+                                        }).on("change:score1 change:score2",_this._eventChangedScore,_this);
+                                        k++;
+                                        matchesCollection.add(_match);
+                                    });
+                                    
+                                    rounds[_newRound]=matchesCollection;
+                             }
+                        }
+                    }
+                },
+                
+                _sortClasification : function (a,b){
+                     if (a.get("points") != b.get("points"))
+                                return a.get("points")>b.get("points")?-1:1;
+               
+                     // TODO: GOAL AVERAGE
+                     var clas = this,_teams = new MemberCollection;
+                                                      
+                     clas.forEach(function(member){
+                         if (member.get("points")==a.get("points")){
+                                  _teams.add(member.clone().set({
+                                                                 win : 0 ,
+                                                                 draw:0,
+                                                                 lose:0,
+                                                                 up:0,
+                                                                 down:0,
+                                                                 points:0
+                                                                 }));
+                         }
+                     });
+                     
+                     
+                     var result = a.get("instance").goalaverage(_teams,a,b);
+                     
+                     var dgA = a.get("up")-a.get("down") , dgB = b.get("up") - b.get("down");
+                     
+                     if (dgA > dgB){
+                            return -1;
+                     }else if (dgA < dgB){
+                            return 1;
+                     }else{
+                            return 0;
+                     }
+                  },
+                
+                goalaverage : function (memberCollection,teamA,teamB){
+                    var _matches = new MatchCollection, _rounds = this.get("rounds") ;
+                                                      console.log(memberCollection);
+                    for (var i = 0; i < _rounds.length;i++){
+                        _rounds[i].forEach(function(match){
+                            if (memberCollection.indexOf(match.get("member1")) != -1 &&
+                                memberCollection.indexOf(match.get("member2")) != -1 ){
+                                           _matches.add(match);
+                            }
+                        });
+                    }
+                                                      console.log(_matches);
+                
+                },
+                                                      
+                                                
+                tableToMatch : function (table){
+                    var rounds = [], _teams = this.get("members").clone().shuffle();
+                    for (var i=0 ; i < table.length;i++){
+                        var matchesCollection = new MatchCollection;
+                        if (!rounds[i])
+                            rounds[i] = null;
+                        for (var j=0;j<table[i].length;j++){
+                             if (typeof table[i][j] == "object"){
+                                 var _match = new Match;
+                                 _match.set({
+                                            id      :  i+"-"+j,
+                                            round   :  i,
+                                            match   :  j,
+                                            member1 : _teams[table[i][j][0]] ,
+                                            member2 : _teams[table[i][j][1]]
+                                 }).on("change:score1 change:score2",this._eventChangedScore,this);
+                                 matchesCollection.add(_match);
+                             }
+                        }
+                        rounds[i] = matchesCollection;
+                    }
+                    return rounds;
+                },
+                _eventChangedScore : function (e){
+                    if (typeof e.get("score1") == "number" && typeof e.get("score2") == "number"){
+                                
+                                var config = {
+                                     winPoints : this.get("win"),
+                                    drawPoints : this.get("draw"),
+                                    losePoints : this.get("lose")
+                                };
+                                this.get("clasification").findWhere({id:e.get("member1").get("id")}).add(e,config);
+                                this.get("clasification").findWhere({id:e.get("member2").get("id")}).add(e,config);
+                     }
+                },
+                getTable : function(table){
+                        var _teams = this.get("members"),
+                             games = _teams.length % 2 == 0 ? _teams.length -1 : _teams.length ,
+                             matches = _teams.length % 2 == 0 ? _teams.length/2 : (_teams.length+1)/2,
+                             table = new Array(games), j = 0 , m = _teams.length % 2 == 0 ? _teams.length-2:_teams.length-1 ;
+                                                      
+                        for (var i=0 ; i < table.length;i++){
+                            table[i] = new Array(matches);
+                            for (var k = 0 ; k < table[i].length ; k++){
+                                    if (k==0){
+                                        if (_teams.length % 2 == 0){
+                                                if (i % 2 == 0){
+                                                      table[i][0] = [j,_teams.length-1];
+                                                }else{
+                                                      table[i][0] = [_teams.length-1,j];
+                                                }
+                                        }else{
+                                                table[i][0] = j;
+                                        }
+                                    }else{
+                                        table[i][k] = [j,m];
+                                        m--;
+                                    }
+                                    j++;
+                                if ((_teams.length % 2 == 0 && j == _teams.length-1)|| (_teams.length % 2 != 0 && j == _teams.length))
+                                                      j = 0;
+                                if (m == -1){
+                                        m = _teams.length % 2 == 0?_teams.length-2:_teams.length-1;
+                                }
+                            }
+                        }
+                        return table;
+                },
+                                                      
+                                                      
+                drawTable : function (table){
+                                                 
+                  var tableHTML = $("<table style='width:100%'></table>");
+                                                      for (var i in table){
+                                                        var tr = $("<tr></tr>");
+                                                        for (var j in table[i]){
+                                                      tr.append("<td style='border:1px solid #000000'>"+(typeof table[i][j] == "object"?table[i][j].join("-"):table[i][j])+"</td>");
+                                                        }
+                                                        tableHTML.append(tr);
+                                                      }
+                                                      return tableHTML;
+                }
+            });
+            
+            var PlayoffTournament = Tournament.extend({
+                                                      
+                defaults : {
+                   
+                    
+                    classifiedTeams : {},
+                    // x-x-x or number
+                    matches :  "2-1" ,
+                    
+                    // [8,4,2]
+                    roundsWithDraft : null,
+                    autoDraft : true,
+                       winner : null ,
+                    preserveWeight : false
+                } ,
+                                                      
+                draft : function (){
+                    this.get("members").shuffle();
+                    this.get("members").comparator = "weight";
+                    this.get("members").sort();
+                    var _this = this , _stage1 = this.get("members").slice(0,(this.get("members").length/2)) ,
+                        _stage2 = this.get("members").slice(this.get("members").length/2) , teamMatches = []
+                         , currentRound = Math.round(parseInt(this.get("members").length)/2);
+                    this.set("currentRound",currentRound);
+                    _stage1.sort(function(a,b){return _this._sortByDraftable(a,b)});
+
+                    for (var i in _stage1){
+                        var draftableTeams = this._getDraftableTeams(_stage1[i],_stage2);
+
+                        if (draftableTeams.length > 0) {
+                            //Randomize the array in order to get the team!!
+                            var chosenTeams = draftableTeams.shuffle(),chosenTeam;
+                            chosenTeam = chosenTeams[0];
+                            _stage2.splice(_stage2.indexOf(chosenTeam),1);
+                            
+                            //Draft done! _stage1[i] vs chosenTeam
+                            teamMatches.push([_stage1[i],chosenTeam]);
+                                                      
+                        }else{
+                                                      
+                            var loop =  typeof arguments[0] == "undefined" ? 2 : arguments[0];
+                            if (teamMatches.length == 0){
+                                 if (loop <= this.get("members").length*2 + 1){
+                                        return _this.draft.call(_this,++loop);
+                                 }else{
+                                        this._clearNotAllowed();
+                                        return _this.draft.call(_this);;
+                                 }
+                            } else {
+                               return _this.draft.call(_this,loop);
+                            }
+                                                      
+                            
+                            
+                        }
+                    }
+                                                      
+                    var matchesCollection = this._getMatches(teamMatches);
+                    var _auxRounds = this.get("rounds");
+                    _auxRounds[currentRound]=matchesCollection;
+                    this.set("rounds",_auxRounds);
+                    
+                    return matchesCollection;
+                },
+               
+               
+                                                      
+                _getNumberMatches : function (){
+                    var matches = this.get("matches"), round = this.get("currentRound");
+
+                    if (typeof matches == "string"){
+                        matches = matches.split("-");
+                    }
+                                                      
+                    if (typeof matches == "object"){
+                        var arrayPosition = this._getRoundPosition();
+                        if (typeof matches[arrayPosition] != "undefined"){
+                            return matches.reverse()[arrayPosition];
+                        }else{
+                            return matches[0];
+                        };
+                                                      
+                    }else{
+                          return parseInt(matches);
+                    }
+                
+                },
+                                                      
+                _getRoundPosition : function () {
+                    var round = this.get("currentRound");
+                    var i = 0;
+                    for (var j = 0; j <= round ;j++){
+                        if (Math.pow(2,j) == round){
+                            return i;
+                        }else{
+                            i++;
+                        }
+                    }
+                } ,
+
+                
+                _getMatches : function (arrayMembers) {
+                    var matchesCollection = new MatchCollection ,
+                            numberMatches = this._getNumberMatches();
+                    for (var i in arrayMembers){
+                        for (var j = 0 ; j < numberMatches;j++){
+                        var aHomeAway = this._getHomeAway(arrayMembers[i],j);
+                          matchesCollection.push(new Match({
+                                    id : arrayMembers.length + "-" + (parseInt(i)+1) + "-" + (parseInt(j)+1) ,
+                                 round : arrayMembers.length ,
+                               playoff : i ,
+                                 match : j ,
+                               member1 : aHomeAway[0],
+                               member2 : aHomeAway[1],
+                                score1 : null ,
+                                score2 : null
+                              }).on("change:score1 change:score2",this._eventChangedScore,this));
+                        }
+                    };
+                    return matchesCollection;
+                } ,
+            
+                _eventChangedScore : function (e,obj) {
+                    if (typeof e.get("score1") == "number" && typeof e.get("score2") == "number"){
+                        e.get("member1").add(e);
+                        e.get("member2").add(e);
+                        var currentRoundMatches = this.get("rounds")[this.get("currentRound")], playoffFinished= true ,
+                            scoring = {}, _this = this;
+                            scoring[e.get("member1").get("id")] = { win:0,draw:0,lose:0,total:0,totalAway:0,member:e.get("member1")};
+                            scoring[e.get("member2").get("id")] = { win:0,draw:0,lose:0,total:0,totalAway:0,member:e.get("member2")};
+                        currentRoundMatches.forEach(function(match){
+                           if (match.get("round") == _this.get("currentRound") &&
+                               match.get("playoff") == e.get("playoff")){
+                                   if (match.get("score1") == null || match.get("score2") == null ){
+                                      playoffFinished = false;
+                                      return false
+                                   }
+                                   if ( match.get("score1") > match.get("score2") ){
+                                        scoring[match.get("member1").get("id")].win++;
+                                        scoring[match.get("member2").get("id")].lose++;
+                                   }else if ( match.get("score1") == match.get("score2") ) {
+                                        scoring[match.get("member1").get("id")].draw++;
+                                        scoring[match.get("member2").get("id")].draw++;
+                                   }else {
+                                        scoring[match.get("member1").get("id")].lose++;
+                                        scoring[match.get("member2").get("id")].win++;
+                                   }
+                                                    
+                                   scoring[match.get("member1").get("id")].total+=match.get("score1");
+                                   scoring[match.get("member1").get("id")].totalAway+=match.get("score1");
+                                   scoring[match.get("member2").get("id")].total+=match.get("score2");
+                                   scoring[match.get("member2").get("id")].totalAway+=match.get("score2")*2;
+                                   
+                               }
+                        });
+                        if (playoffFinished){
+                            _this.trigger("tournament:playoffFinished",this._setClassified(scoring,e));
+                            if (this.get("classifiedTeams")[this.get("currentRound")].length ==parseInt(this.get("currentRound"))){
+                                    _this.trigger("tournament:roundFinished",this._roundFinished(this.get("classifiedTeams")[this.get("currentRound")]));
+                            }
+                        };
+                                
+                                                      
+                                                      
+                    }
+                } ,
+                _roundFinished : function (classifiedTeams){
+                     var memberCollection = new MemberCollection(classifiedTeams);
+                     this.set("members",memberCollection);
+                     this._clearNotAllowed();
+                     if (!this.get("preserveWeight")){
+                         this._clearWeight();
+                     }
+                     if (this.get("currentRound") > 1){
+                        if (this.get("autoDraft")){
+                         if(this.get("roundsWithDraft") && typeof this.get("roundsWithDraft")[this.get("currentRound")/2]){
+                                this.draft();
+                         }else{
+                              var homeAway = [];
+                              for (var i = 0; i < memberCollection.size();i++){
+                                   var auxMember = memberCollection.clone() ,
+                                               j = memberCollection.indexOf(memberCollection.at(i)),
+                                          remove = [memberCollection.at(i)];
+                                   
+                                    if (i % 2 == 0){
+                                        remove.push(memberCollection.at(i+1));
+                                        var rand = Math.random()*2;
+                                        homeAway[i] = rand>1?1:0;
+                                    }else{
+                                        remove.push(memberCollection.at(i-1));
+                                        homeAway[i] = homeAway[i-1]==1?0:1;
+                                    }
+                                    auxMember.remove(remove);
+                                    memberCollection.at(i).set("notAllowed",auxMember);
+                                    if (!this.get("preserveWeight")){
+                                           memberCollection.at(i).set("weight",homeAway[i]==0?1:5); 
+                                    }
+                                    
+                              }
+                              this.draft();
+                         }
+                        }
+                     }else{
+                        this.set({
+                           isFinished : true ,
+                               winner : classifiedTeams[0]
+                        });
+                        this.trigger("tournament:tournamentFinished",classifiedTeams);
+                     }
+                     return memberCollection;
+                },
+                _setClassified : function (scoring,match) {
+                   if (typeof this.get("classifiedTeams")[this.get("currentRound")] == "undefined")
+                                                      this.get("classifiedTeams")[this.get("currentRound")] = [];
+
+                   if (scoring[match.get("member1").get("id")].win == scoring[match.get("member2").get("id")].win){
+                     if ((scoring[match.get("member1").get("id")].total > scoring[match.get("member2").get("id")].total ) ||
+                       (scoring[match.get("member1").get("id")].total == scoring[match.get("member2").get("id")].total &&
+                        scoring[match.get("member1").get("id")].totalAway > scoring[match.get("member2").get("id")].totalAway ) ||
+                       (scoring[match.get("member1").get("id")].total == scoring[match.get("member2").get("id")].total &&
+                        scoring[match.get("member1").get("id")].totalAway == scoring[match.get("member2").get("id")].totalAway )
+                       ){
+                            scoring.winner = match.get("member1");
+                            this.get("classifiedTeams")[this.get("currentRound")][match.get("playoff")] = scoring.winner;
+                            return scoring;
+                       }else{
+                            scoring.winner = match.get("member2");
+                            this.get("classifiedTeams")[this.get("currentRound")][match.get("playoff")] = scoring.winner;
+                            return scoring;
+                       }
+                    }else{
+                       if (scoring[match.get("member1").get("id")].win > scoring[match.get("member2").get("id")].win){
+                            scoring.winner = match.get("member1");
+                            this.get("classifiedTeams")[this.get("currentRound")][match.get("playoff")] = scoring.winner;
+                            return scoring;
+                       }else{
+                            scoring.winner = match.get("member2");
+                            this.get("classifiedTeams")[this.get("currentRound")][match.get("playoff")] =  scoring.winner;
+                            return scoring;
+                      }
+                    }
+                } ,
+                                                      
+                _getHomeAway : function (arrayMembers,iMatch){
+                    if ((arrayMembers[0].get("weight") > arrayMembers[1].get("weight") && iMatch % 2 == 0 ) ||
+                        (arrayMembers[0].get("weight") < arrayMembers[1].get("weight") && iMatch % 2 == 1)){
+                            return [arrayMembers[0],arrayMembers[1]];
+                    }else if ((arrayMembers[0].get("weight") > arrayMembers[1].get("weight") && iMatch % 2 == 1 ) ||
+                              (arrayMembers[0].get("weight") < arrayMembers[1].get("weight") && iMatch % 2 == 0)){
+                            return [arrayMembers[1],arrayMembers[0]];
+                    }else if(iMatch % 2 == 0){
+                            return [arrayMembers[0],arrayMembers[1]];
+                    }else{
+                            return [arrayMembers[1],arrayMembers[0]];
+                    }
+                } ,
+                                                      
+                _sortByDraftable : function (m1,m2){
+                    if (m1.has("notAllowed") && !m2.has("notAllowed")){
+                        return -1;d
+                    } else if (m1.has("notAllowed") && !m2.has("notAllowed")) {
+                        return 1;
+                    } else if (m1.has("notAllowed") && m2.has("notAllowed")) {
+                        if (m1.get("notAllowed").length > m2.get("notAllowed").length){
+                            return -1;
+                        } else if (m1.get("notAllowed").length < m2.get("notAllowed").length) {
+                            return 1;
+                        } else {
+                            return 0;
+                        }
+                    } else {
+                        return 0;
+                    }
+                }
+            });
+            
+            
+            /**
+             *   Members
+             *
+             **/
+            
+            var Member = Backbone.Model.extend({
+                defaults : {
+                  name : null ,
+                  id   : null,
+                  weight : 1,
+                  win : 0 ,
+                  draw:0,
+                  lose:0,
+                  up:0,
+                  down:0,
+                  points:0,
+                  homeName : null,
+                  description : null
+                } ,
+                add : function (match,config){
+                    var score1 = match.get("score1") , score2 = match.get("score2");
+                    var win = this.get("win"), draw = this.get("draw"), lose = this.get("lose");
+                    draw = score1==score2?draw+1:draw;
+                    if (!config){
+                        config = {
+                                               winPoints : 3,
+                                               drawPoints : 1,
+                                               losePoints : 0
+                                               };
+                    }
+                                               
+                    if (match.get("member1").get("id") == this.get("id")){
+                        win = score1>score2?win+1:win;
+                       lose = score1<score2?lose+1:lose;
+                         up = this.get("up") + score1;
+                       down = this.get("down") + score2;
+                    }else{
+                        win = score1<score2?win+1:win;
+                       lose = score1>score2?lose+1:lose;
+                         up = this.get("up") + score2;
+                       down = this.get("down") + score1;
+                    };
+                    
+                    var points = (win*(config.winPoints||3))+(draw*(config.drawPoints||1))+(lose*(config.losePoints||0));
+
+                    this.set({
+                             win : win ,
+                             lose : lose ,
+                             draw : draw , 
+                             up : up ,
+                             points : points,
+                             down : down
+                    });
+                }
+            });
+            
+            
+            /**
+             * Match
+             *
+             **/
+            var Match = Backbone.Model.extend({
+                defaults : {
+                        id : null ,
+                        round : null,
+                        playoff : null ,
+                        match : null ,
+                        member1 : null,
+                        member2 : null,
+                         score1 : null ,
+                         place  : null ,
+                       datetime : null,
+                         score2 : null
+                        }
+            });
+            
+            
+            /** 
+             * Collections
+             *
+             **/
+            
+            var MemberCollection = Backbone.Collection.extend({}) ,
+                MatchCollection  = Backbone.Collection.extend({});
+            
+            
+        </script>
+        
+        <script>
+            var memberCollection = new MemberCollection , tournament = new PlayoffTournament;
+            for (var i = 1; i <= 12 ; i++){
+                memberCollection.push(new Member({
+                        name : "Member " + i ,
+                        id : i ,
+                        weight : Math.round(Math.random()*16)
+                }));
+            };
+            
+            //Check avoid rivals
+            var member = new Member({
+                name : "España" , id : 13 , weight: 16
+            }), notAllowed = new MemberCollection;
+            
+            notAllowed.add([memberCollection.at(1),memberCollection.at(2),memberCollection.at(3),memberCollection.at(0),memberCollection.at(4),memberCollection.at(5),memberCollection.at(6),memberCollection.at(7)]);
+            
+            member.set("notAllowed",notAllowed);
+            memberCollection.push(member);
+            
+            var member = new Member({
+                                    name : "Holanda" , id : 14 , weight: 1
+                                    }), notAllowed = new MemberCollection;
+            
+            notAllowed.add([memberCollection.at(1),memberCollection.at(2),memberCollection.at(3),memberCollection.at(0),memberCollection.at(4),memberCollection.at(5),memberCollection.at(6),memberCollection.at(7)]);
+            
+            member.set("notAllowed",notAllowed);
+            memberCollection.push(member);
+            
+            var member = new Member({
+                                    name : "Chile" , id : 15 , weight: 11
+                                    }), notAllowed = new MemberCollection;
+            
+            notAllowed.add([memberCollection.at(1),memberCollection.at(2),memberCollection.at(3),memberCollection.at(0),memberCollection.at(4),memberCollection.at(5),memberCollection.at(6),memberCollection.at(7)]);
+            
+            member.set("notAllowed",notAllowed);
+            memberCollection.push(member);
+            
+            var member = new Member({
+                                    name : "Australia" , id : 16 , weight: 8
+                                    }), notAllowed = new MemberCollection;
+            
+            notAllowed.add([memberCollection.at(1),memberCollection.at(2),memberCollection.at(3),memberCollection.at(0),memberCollection.at(4),memberCollection.at(5),memberCollection.at(6),memberCollection.at(7)]);
+            
+            member.set("notAllowed",notAllowed);
+            memberCollection.push(member);
+            
+            
+            tournament.set("members" , memberCollection);
+            tournament.on ("tournament:playoffFinished",function(a){
+                          
+            });
+            tournament.on ("tournament:roundFinished",function(a){
+                           $("div#matches").append("<p>==========================</p>");
+                           if (this.get("currentRound") > 1) {
+                           var tor = tournament.get("rounds")[this.get("currentRound")];
+                           tor.forEach(function(match){
+                                       
+                                       var _score1 = Math.round(Math.random()*5) , _score2 = Math.round(Math.random()*5);
+                                       
+                                       //console.log(tournament.get("classifiedTeams"));
+                                       $("div#matches").append("<p>"+match.get("member1").get("name")+ "-" +
+                                                               match.get("member2").get("name") + " | " + _score1 + "-" + _score2 + "</p>");
+                                       match.set("score1",_score1);
+                                       match.set("score2",_score2);
+                            });
+                           }else{
+                                if (!tournament.get("isFinished")){
+                                      var tor = tournament.get("rounds")[this.get("currentRound")];
+                                      tor.forEach(function(match){
+                                       
+                                       var _score1 = Math.round(Math.random()*5) , _score2 = Math.round(Math.random()*5);
+                                       
+                                       //console.log(tournament.get("classifiedTeams"));
+                                       $("div#matches").append("<p>"+match.get("member1").get("name")+ "-" +
+                                                               match.get("member2").get("name") + " | " + _score1 + "-" + _score2 + "</p>");
+                                       match.set("score1",_score1);
+                                       match.set("score2",_score2);
+                                       }); 
+                                }else{
+                                    console.log("Tournament finished",this);
+                                }
+                           }
+            })
+            tournament.set("matches","1-1-1-3");
+            tournament.draft();
+            tournament.urlRoot = "/ddddd/aaa" ;
+            
+            
+            var tor = tournament.get("rounds")[8] , i = 0;
+            
+            
+            tor.forEach(function(match){
+                        var _score1 = Math.round(Math.random()*5) , _score2 = Math.round(Math.random()*5);
+                       
+                        //console.log(tournament.get("classifiedTeams"));
+                        $("div#matches").append("<p>"+match.get("member1").get("name")+ "-" +
+                           match.get("member2").get("name") + " | " + _score1 + "-" + _score2 + "</p>");
+                        match.set("score1",_score1);
+                        match.set("score2",_score2);
+            });
+            
+            //console.log(tournament.get("classifiedTeams"));
+            //console.log(JSON.stringify(tournament));
+            
+            $("div#matches").append("<h2>Liga</h2>");
+            
+            var league = new LeagueTournament;
+            league.set("matches",1);
+            league.set("members",new MemberCollection(memberCollection.slice(memberCollection.length-16)));
+            league.draft();
+            
+            for (var i in league.get("rounds")){
+                $("div#matches").append("<h6>Jornada "+i+"</h6>");
+                league.get("rounds")[i].forEach(function(match){
+                                                var _score1 = Math.round(Math.random()*5) , _score2 = Math.round(Math.random()*5);
+                                                
+                                                //console.log(tournament.get("classifiedTeams"));
+                                                $("div#matches").append("<p>"+match.get("member1").get("name")+ "-" +
+                                                                        match.get("member2").get("name") + " | " + _score1 + "-" + _score2 + "</p>");
+                                                match.set("score1",_score1);
+                                                match.set("score2",_score2);
+                });
+            }
+            //TODO IDA Y VUELTA
+            var clasification = league.clasification();
+    $("div#matches").append("<table id='liga'style='width:100%'><thead><tr><td>Equipo</td><td>G</td><td>E</td><td>P</td><td>DG</td><td>Pts</td></tr></thead><tbody></tbody></table>");
+            clasification.forEach(function(member){
+    $("#liga tbody").append("<tr><td>"+member.get("name")+"</td><td>"+member.get("win")+"</td><td>"+member.get("draw")+"</td><td>"+member.get("lose")+"</td><td>"+(parseInt(member.get("up"))-parseInt(member.get("down")))+"</td><td>"+member.get("points")+"</td></tr>");
+            });
+            
+            
+        </script>
+    </body>
+</html>
